@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="number1" type="text"> <br>
+<input id="number2" type="text"> <br>
+<button onclick="check()">Check</button>
+<br>
+<h2 id="ketQua"></h2>
+
+<script>
+    function check(){
+        let a = +document.getElementById("number1").value;
+        let b = +document.getElementById("number2").value;
+        let c = a % b
+        if (c == 0){
+            document.getElementById("ketQua").innerHTML = "chia hết ";
+        }else {
+            document.getElementById("ketQua").innerHTML = "không chia hết ";
+        }
+    }
+
+</script>
+</body>
+</html>
+</body>
+</html>
